@@ -97,7 +97,7 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(135deg, #c01616 0%, #000000 50%, #000000 100%);
+    background: linear-gradient(135deg, #000000 0%, #000000 50%, #000000 100%);
 }
 
 .hero::before {
@@ -323,7 +323,7 @@ section {
 
 /* About Section */
 .about {
-  background: linear-gradient(135deg, #c01616 0%, #000000 50%, #c74949 100%);
+  background: linear-gradient(135deg, #000000 0%, #000000 50%, #000000 150%);
     color: white;
     position: relative;
 }
@@ -590,6 +590,7 @@ section {
     background: rgba(0, 0, 0, 0.2);
     color: #ffffff;
     padding: 0.25rem 0.75rem;
+    text-decoration: none;
     border-radius: 15px;
     font-size: 0.8rem;
     font-weight: 500;
