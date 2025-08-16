@@ -547,16 +547,17 @@ section {
 }
 
 .project-image {
-    height: 200px;
-    overflow: hidden;
-    position: relative;
+  display: flex;              /* enables flexbox */
+  justify-content: center;    /* centers horizontally */
+  align-items: center;        /* centers vertically (if you give container a height) */
+  margin: 15px;        /* spacing below image */
 }
 
 .project-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
+  width: 75%;
+  height: 75%;
+  object-fit: contain;  /* keeps full image inside box */
+  border-radius: 13px;
 }
 
 .project-card:hover .project-image img {
